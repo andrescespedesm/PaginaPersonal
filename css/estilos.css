@@ -1,0 +1,65 @@
+ /* Estilos CSS */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .social-icons {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .social-icons a i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+  }
+
+  .social-icons a i:hover {
+    background-color: #ddd;
+  }
+
+  .story {
+    margin-bottom: 20px;
+  }
+
+  .date {
+    font-size: 12px;
+    color: #888;
+  }
+
+  footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
