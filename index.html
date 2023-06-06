@@ -5,12 +5,128 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andres Cespedes</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="./css/estilos.css">
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('/imagenes/imagen4.png');
+    }
+
+    header {
+      background-color: #333;
+      color: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0px;
+      position: relative;
+      background-color: transparent;
+      color: #000000;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 25px;
+      color: #ffffff;
+    }
+
+    .social-icons {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 5px;
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .social-icons a i {
+      display: block;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .social-icons a i.fa-facebook {
+      background-color: #3b5998;
+    }
+
+    .social-icons a i.fa-twitter {
+      background-color: #1da1f2;
+    }
+
+    .social-icons a i.fa-instagram {
+      background-color: #c13584;
+    }
+
+    .social-icons a i.fa-tiktok {
+      background-color: #000000;
+    }
+
+    .social-icons a i.fa-github {
+      background-color: #333333;
+    }
+
+    .social-icons a i.fa-envelope {
+      background-color: #dd4b39;
+    }
+
+    .social-icons a i.fa-whatsapp {
+      background-color: #25d366;
+    }
+
+    .main-container {
+      display: flex;
+      margin: 20px;
+    }
+    
+    .sidebar {
+      width: 30%;
+      background-color: rgba(245, 245, 245, 0.7);
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .story {
+      width: 65%;
+      background-color: rgba(245, 245, 245, 0.431);
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: rgba(245, 245, 245, 0.7);
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Andres Cespedes</h1>
     <div class="container">
+      <h1>Andres Cespedes</h1>
       <div class="social-icons">
         <a href="enlace-a-red-social1"><i class="fab fa-facebook"></i></a>
         <a href="enlace-a-red-social2"><i class="fab fa-twitter"></i></a>
@@ -23,13 +139,31 @@
     </div>
   </header>
 
-  <div class="story">
-    <h2>Aprende a invertir en tu futuro financiero y espiritual</h2>
-    <p>Las decisiones que tomes hoy determinarán la calidad de tu vida a corto plazo, mientras que las inversiones que hagas en tu crecimiento personal y bienestar emocional te brindarán beneficios duraderos a largo plazo.</p>
-    <p class="date">Publicado el 1 de junio de 2023</p>
-  </div>
+  <main class="main-container">
+    <div class="content">
+      <div class="story">
+        <h2>Aprende a invertir en tu futuro financiero y espiritual</h2>
+        <p class="date">Publicado el 3 de junio de 2023</p>
+        <p>Las decisiones que tomes hoy determinarán la calidad de tu vida a corto plazo, mientras que las inversiones que hagas en tu crecimiento personal y bienestar emocional te brindarán beneficios duraderos a largo plazo.</p>
+      </div>
+      <div class="story">
+        <h2>Aprende a invertir en tu futuro financiero y espiritual</h2>
+        <p class="date">Publicado el 2 de junio de 2023</p>
+        <p>Las decisiones que tomes hoy determinarán la calidad de tu vida a corto plazo, mientras que las inversiones que hagas en tu crecimiento personal y bienestar emocional te brindarán beneficios duraderos a largo plazo.</p>
+      </div>
+      <div class="story">
+        <h2>Aprende a invertir en tu futuro financiero y espiritual</h2>
+        <p class="date">Publicado el 1 de junio de 2023</p>
+        <p>Las decisiones que tomes hoy determinarán la calidad de tu vida a corto plazo, mientras que las inversiones que hagas en tu crecimiento personal y bienestar emocional te brindarán beneficios duraderos a largo plazo.</p>
+      </div>
+      <!-- Agrega más historias o entradas de blog aquí -->
+    </div>
+  </main>
 
-  <!-- Agrega más historias o entradas de blog aquí -->
-
+  <footer>
+    <div class="container">
+      <p>© 2023 Andres Cespedes. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>
